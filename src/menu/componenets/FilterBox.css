@@ -1,0 +1,30 @@
+.check-item {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+}
+.sousList-Container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+
+  width: 8rem;
+}
+.Menubuttons-container {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  margin-top: -4rem;
+  margin-left: 26.5rem;
+}
+.Menubuttons-container Button {
+  width: 6rem;
+  cursor: pointer;
+  border-color: rgb(205, 203, 203);
+  border-style: groove;
+}
+.Menubuttons-container Button:hover {
+  background-color: brown;
+  color: white;
+  border: none;
+}

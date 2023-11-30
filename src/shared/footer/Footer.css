@@ -1,0 +1,41 @@
+.pages-container {
+  display: flex;
+}
+.ressource-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.pages {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.socialMedia {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  font-size: 1.5rem;
+}
+.footer-container {
+  display: flex;
+  margin-top: 10rem;
+  padding-top: 4rem;
+  gap: 8rem;
+  flex-direction: row;
+  justify-content: center;
+  background-color: rgb(50, 52, 52);
+  color: white;
+}
+.footer-container form input {
+  margin: 0.2rem;
+  width: 18rem;
+  height: 1.8rem;
+}
+.footer-container form button {
+  height: 2.2rem;
+  width: 5.5rem;
+}
+.footer-partOne {
+  width: 10rem;
+}

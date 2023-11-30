@@ -1,0 +1,19 @@
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+.card-container img {
+  width: 20%;
+  height: 20%;
+  margin-top: 0.1rem;
+}
+.card-container button {
+  border: none;
+  background-color: transparent;
+  color: rgb(250, 54, 54);
+  font-weight: bold;
+  cursor: pointer;
+}

@@ -1,0 +1,48 @@
+.card-content {
+  justify-content: center;
+  gap: 0.1rem;
+}
+.card-content Button {
+  width: 3rem;
+  height: 2rem;
+  border: none;
+  background-color: cadetblue;
+  color: white;
+}
+.image {
+  width: 100%;
+  height: 10rem;
+  object-fit: cover;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+.food-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 0;
+}
+.food-title h3 {
+  font-family: "times new roman";
+  font-size: 1.3rem;
+  font-style: normal;
+}
+.food-title p {
+  margin-top: 1.4rem;
+}
+.description {
+  height: 3rem;
+  margin-top: -1rem;
+  margin-bottom: 0;
+  text-align: center;
+}
+.order-price {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 2rem;
+  align-items: center;
+  padding: 0;
+}
+.order-price Button {
+  margin-top: -0.2rem;
+}
